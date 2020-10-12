@@ -356,7 +356,7 @@ int main() {
     print_search(ht, "2");
     print_search(ht, "3");
     print_search(ht, "Hel");
-    print_search(ht, "Cau");  // Collision!
+    print_search(ht, "Cau");  // Collision! with exclamation
     print_table(ht);
     ht_delete(ht, "1");
     ht_delete(ht, "Cau");
